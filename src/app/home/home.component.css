@@ -1,0 +1,84 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url("../../assets/img/main-fondo.jpg");
+    background-size: 100% 100%; 
+    background-attachment: fixed;
+    /*
+    height: 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    */
+}
+.content{
+    background-color: white;
+}
+.navbar1{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.icon_nav{
+    text-decoration: none;
+    outline:none;
+    border: 0;
+    background-color: transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.item{
+    border: darkgrey 1px solid;
+    padding: 5px 5px 5px 5px;
+}
+
+.wrapper{
+    width: 1150px;
+    margin: 0 auto;
+    display: block;
+    height: 500px;
+    overflow: scroll;
+}
+
+.gallery{
+    display:  grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;    
+}
+.more-options{
+    display: inline-block;
+}
+.label-names{
+    font-size: 13px;
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+.btn{
+    margin-left: 15px;
+    margin-right: 5px;
+    color: white;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    
+    font-size: 12px;
+}
+.number-product{
+    width: 40px;
+    opacity: 1;
+    font-size: 12px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+
+   opacity: 1;
+
+}
+.navbar2{
+    background-color: white;
+    margin-right: 20px;
+}
+.form-inline{
+    width: 500px;
+}
+.bi-search{
+    padding-right: 15px;
+}

@@ -1,0 +1,34 @@
+.navbar1{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.icon_nav{
+    color: gray;
+    text-decoration: none;
+    outline:none;
+    border: 0;
+    background-color: transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+a:link{
+    text-decoration: none 
+}
+a:hover{
+    cursor: hand;
+}
+.show_prod_cart{
+    font-size: 9px;
+    color: white;
+    width: 14px;
+    height: 14px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: red;
+    position: relative;
+    top: -7px;
+    right: -5px;
+    text-align: center;
+}

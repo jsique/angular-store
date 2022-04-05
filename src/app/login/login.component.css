@@ -1,0 +1,38 @@
+body{
+    background-image: url("../../assets/img/login-fondo.jpg");
+    background-size: 100% 100%; 
+    background-attachment: fixed;
+    /*
+    height: 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    */
+}
+input{
+    margin-bottom: 10px;
+}
+
+.titulo{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button{
+    background-color: green;
+    border-color: green;
+    margin-top: 10px;
+}
+
+.texto{
+    text-align: left;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text_align{
+    text-align: left;
+}
+.error {
+    color: red;
+    background-color: hotpink;
+}

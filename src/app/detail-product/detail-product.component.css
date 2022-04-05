@@ -1,0 +1,44 @@
+body{
+    background-image: url("../../assets/img/main-fondo.jpg");
+    background-size: 100% 100%; 
+    background-attachment: fixed;
+    /*
+    height: 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    */
+}
+.firt_content{
+    background-color: white;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.navbar2{
+    vertical-align: middle;
+    text-align: center;
+}
+.title{
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 25px;
+}
+.second_content{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 490px;
+}
+.image_product{
+    border: 1px solid blue;
+}
+
+.btn{
+    border: 1px solid grey;
+    display: block;
+}
+strong,label
+{
+    font-family: cursive;
+}
+#price{
+    font-size: 30px;
+}

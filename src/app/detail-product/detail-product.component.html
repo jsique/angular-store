@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+<body>
+    <app-navigation-bar></app-navigation-bar>
+    <div class="firt_content">
+        <nav class="navbar navbar-expand-lg navbar-light navbar2" >
+              <h2 class="title">{{this.product.name}}</h2>
+        </nav>
+        <hr>
+        <div class="second_content">
+            <div class="row">
+                <div class="col-6 image_frame">
+                    <img class="image_product" src="{{this.product.image}}" alt="" width="auto" height="400">
+                </div>
+                <div class="col-6">
+                        <strong id="price">Precio:</strong> <label for="" id="price">{{this.product.price}}</label><br>
+                        <strong>Unidades disponibles:</strong><label for="">{{this.product.available}}</label>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-1">
+                    <a  class="btn" [routerLink]="['/home']" >Atrás</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

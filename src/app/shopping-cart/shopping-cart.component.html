@@ -1,0 +1,32 @@
+<body>
+    <app-navigation-bar></app-navigation-bar>
+    <div class="firt_content">
+        <nav class="navbar navbar-expand-lg navbar-light navbar2" >
+            <div class="row">
+                <label for="" class="title">Carrito de compras</label>
+            </div>
+        </nav>
+        <hr><br>
+        <div class="row second_content">
+            <div class="col-6">
+                <table class="tbl_content" border="1">
+                        <tr class="tbl_content" *ngFor="let item of TmpArrayShopCar" style="width: 100%;">
+                            <td style="width: 110px;"> 
+                                <img src="{{item.image}}" alt="" width="100" height="100">
+                            </td>        
+                            <h4>{{item.name}}</h4>
+                            <strong>Unidades: </strong> <label for="">{{item.quantity}}</label><br>
+                            <strong>Sub total: </strong> <label for="">${{item.amount}}</label>
+                        </tr>
+                </table>    
+            </div>
+
+            <div class="col-6">
+                <h3>Total: $ {{this.total}}</h3>
+                <button type="button" class="btn btn-light btn_cart" (click)="fncCancel()" >Cancelar</button>
+                <button type="button" class="btn btn-light btn_cart" (click)="fncPayCart()" [disabled]="!this.TmpArrayShopCar">Pagar</button>
+            </div>
+        </div>
+    </div>
+</body>
+

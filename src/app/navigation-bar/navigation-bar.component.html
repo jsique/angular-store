@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar1" >
+    <!-- Navbar content -->
+    <div class="container-fluid">
+        <label for="">La Bodega</label>
+    </div>
+        <div class="d-flex">
+            <a routerLink="/home" class="icon_nav bi bi-grid-3x3-gap-fill " ></a>
+            <a routerLink="/shoppingCard" class="icon_nav bi bi-cart-fill" >
+                <div class="show_prod_cart" *ngIf="numPro>0">{{numPro}}</div>
+            </a>            
+            <a class="icon_nav bi bi-inbox-fill" ></a>
+            <a class="icon_nav bi bi-box-arrow-right" (click)="LogOut()"></a>
+        </div>
+    </nav>
+<br>

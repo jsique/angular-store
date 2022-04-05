@@ -1,0 +1,45 @@
+body{
+    background-image: url("../../assets/img/main-fondo.jpg");
+    background-size: 100% 100%; 
+    background-attachment: fixed;
+    /*
+    height: 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    */
+}
+.firt_content{
+    background-color: white;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.title{
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 25px;
+    /*font-family: "Comic Sans MS", "Comic Sans", cursive;*/
+}
+.navbar2{
+    vertical-align: middle;
+    text-align: center;
+}
+.second_content{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.btn_cart{
+    background-color: white;
+    border: 1px solid;
+}
+.btn_cart:hover{
+    background-color:grey;
+}
+.tbl_content{
+    border: 1px solid;
+    width: 100%;
+    border-color: #EFEFEF;
+}
